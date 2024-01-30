@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="banner">
+        <header>
+            <a href="#" class="logo">Port<span>folio</span></a>
+            <div class="toggle"></div>
+        </header>
+        <img src="img/PICT0063.webp" class="myfoto">
+        <div class="content">
+            <div class="contentBx">
+                <h4>Hello,</h4>
+                <h2>I'm <span>Igor Ovsienko</span></h2>
+                <h3>Beginner Web Developer</h3>
+                <p>I worked as an advertising designer, did newspaper layout, and now I decided to try my hand at website layout. I hope you liked my work and want something similar for yourself.</p>
+                <a href="#">Hire Me</a>
+                <a href="#">Download</a>
+            </div>
+        </div>
+    </section>
+    <script>
+        let banner = document.querySelector('.banner');
+        let menutoggle = document.querySelector('.toggle');
+        menutoggle.onclick = function () {
+            menutoggle.classList.toggle('active');
+            banner.classList.toggle('active');
+        }
+    </script>
+
+</body>
+
+</html>
