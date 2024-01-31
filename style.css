@@ -138,7 +138,7 @@ header .toggle.active {
     display: inline-block;
     color: #fff;
     padding: 10px 30px;
-    margin-right: 20px;
+    margin: 20px;
     font-weight: 500;
     text-transform: uppercase;
     text-decoration: none;
